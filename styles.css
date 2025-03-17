@@ -16,3 +16,19 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+nav{
+    width: 95%;
+    display: block;
+    top: 100%;
+    left: 0%;
+    z-index: 100;
+}
+
+nav li{
+    list-style-type: none;
+    text-align: center;
+    background-color: #d9043d;
+    padding: 1rem;
+    border: 1px solid #97bf04;
+}
