@@ -5,10 +5,14 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #cccccc;
+    margin: 0%;
 }
 
-header{
+.header-container{
     background-color: #120323;
     color: #97bf04;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
