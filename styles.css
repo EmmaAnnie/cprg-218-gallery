@@ -104,10 +104,14 @@ footer{
     }
     figure:last-of-type img{
         min-width: 100%;
+    } 
+}
+
+@media screen and (min-width: 1000px){
+    #gallery-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
- 
-   
-    
 }
 
 
