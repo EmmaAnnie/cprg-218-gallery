@@ -96,9 +96,11 @@ footer{
     #gallery-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 0;
     }
     figure:last-of-type{
         grid-column: span 2;
+        max-width: 100%;
     }
  
    
