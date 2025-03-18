@@ -74,6 +74,9 @@ footer{
 
 
 @media screen and (min-width: 768px){
+    header{
+        margin: 0;
+    }
     .header-container{
         margin: 0;
     }
@@ -88,6 +91,10 @@ footer{
         display: inline;
         border: none;
         margin: 0;
+    }
+    #gallery-container{
+        display: grid;
+        grid-column: 1fr 1fr;
     }
     
 }
