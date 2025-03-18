@@ -114,7 +114,9 @@ footer{
     }
     figure:last-of-type{
         grid-column: span 2;
-        grid-row: span 1;
+    }
+    figure :last-of-type img{
+        max-width: 100%;
     }
 }
 
