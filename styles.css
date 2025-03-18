@@ -97,6 +97,9 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    figure:last-of-type{
+        grid-column: span 2;
+    }
  
    
     
