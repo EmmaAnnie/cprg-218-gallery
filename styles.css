@@ -7,6 +7,10 @@ body{
     background-color: #cccccc;
 }
 
+header{
+    align-items: center;
+}
+
 .header-container{
     background-color: #120323;
     color: #97bf04;
@@ -18,7 +22,8 @@ body{
 
 nav{
     width: 95%;
-    display: block;
+    align-items: center;
+    margin-left: 0%;
 }
 
 nav li{
