@@ -73,3 +73,23 @@ footer{
 }
 
 
+@media screen and (min-width: 768px){
+    .header-container{
+        margin: 0;
+    }
+    nav{
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
+        background-color: #d9043d;
+        margin: 0;
+    }
+    nav li{
+        display: inline;
+        border: none;
+        margin: 0;
+    }
+    
+}
+
+
