@@ -53,16 +53,18 @@ main h2{
     margin: 0;
 }
 
-#gallery-container img{
-    max-width: 100%;
-    border-bottom: 10px solid #97bf04
-}
 figure{
     background-color: white;
     padding: 2rem;
     margin-bottom: 0;
     max-width: 650px;
 }
+
+#gallery-container img{
+    max-width: 100%;
+    border-bottom: 10px solid #97bf04
+}
+
 
 footer{
     background-color: #d9043d;
@@ -98,6 +100,9 @@ footer{
         grid-template-columns: 1fr 1fr;
         gap: 0;
     }
+    figure{
+        max-width: 650px;
+    }
     figure:last-of-type{
         grid-column: span 2;
         max-width: 100%;
@@ -112,13 +117,15 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    figure{
+        max-width: 650px;
+    }
     figure:last-of-type{
         grid-column: span 2;
-        width: 650px;
-        height: auto;
+        max-width: 100%;
     }
     figure :last-of-type img{
-        width: 50%;
+        max-width: 100%;
     }
 }
 
