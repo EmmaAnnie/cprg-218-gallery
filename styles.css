@@ -91,6 +91,7 @@ footer{
         display: inline;
         border: none;
         margin: 0;
+        max-width: 100%;
     }
     #gallery-container{
         display: grid;
