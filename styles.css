@@ -118,8 +118,7 @@ footer{
         height: auto;
     }
     figure :last-of-type img{
-        max-width: 650px;
-        height: auto;
+        width: 50%;
     }
 }
 
