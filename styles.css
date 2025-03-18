@@ -96,6 +96,9 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    #gallery-container :last-of-type{
+        grid-column: span 2;
+    }
    
     
 }
