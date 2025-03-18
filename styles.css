@@ -31,6 +31,7 @@ nav li{
     list-style-type: none;
     text-align: center;
     padding: 0.5rem;
+    margin-bottom: 0.7rem;
     background-color: #d9043d;
     border: 1px solid #97bf04;
 }
