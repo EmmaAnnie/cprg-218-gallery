@@ -5,6 +5,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #cccccc;
+    margin: 0;
 }
 
 header{
@@ -41,3 +42,29 @@ nav li a{
     color: rgb(255, 255, 255);
     padding: 1rem;
 }
+
+main h2{
+    text-align: center;
+}
+
+#gallery-container{
+    display: grid;
+    grid-column: 1fr;
+    margin: 0;
+}
+
+#gallery-container img{
+    max-width: 100%;
+    border-bottom: 10px solid #97bf04
+}
+figure{
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: #d9043d;
+}
+
+
