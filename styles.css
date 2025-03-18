@@ -6,6 +6,8 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #cccccc;
     margin: 0%;
+    display: grid;
+    grid-column: 1fr;
 }
 
 .header-container{
